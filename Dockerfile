@@ -10,7 +10,7 @@
 #	chazlever/docker-jail:latest
 #
 
-FROM debian:jessie
+FROM debian:bookworm
 LABEL maintainer "Chaz Lever <chazlever@users.noreply.github.com>"
 
 RUN apt-get update && apt-get install -y \
